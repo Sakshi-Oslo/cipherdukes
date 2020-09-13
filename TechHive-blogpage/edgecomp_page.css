@@ -1,0 +1,25 @@
+nav{
+	background-color:#008B8B;
+}
+
+.header{
+	background-size: cover;
+	margin-right: 20px;
+	margin-left: 25px;
+}
+.main-content{
+	text-align: center;
+	margin-top:10px;
+	margin-right: 150px;
+	margin-left: 150px;
+}
+.content{
+	 font-family: "Times New Roman", Times, serif;
+	 font-size: 20px;
+}
+footer
+{
+  margin: 0px;
+  background-color:#008B8B;
+  color:white;
+}

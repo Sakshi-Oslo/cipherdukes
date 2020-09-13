@@ -1,0 +1,104 @@
+body {
+    background-color: black;
+}
+
+h5 {
+    color: white;
+}
+
+
+
+.cap {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.cap span.boder {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: #111;
+}
+
+.subhead {
+    font-size: 20px;
+    font-weight: 800;
+    padding-top: 50px;
+    color: white;
+}
+
+.subhead a {
+    color: #fcec03;
+    font-size: 2em;
+}
+
+.subhead a:hover {
+    color: #b5d5f5;
+}
+
+footer {
+    margin: 10px;
+    background-color: #008B8B;
+    color: white;
+}
+
+.heading {
+    font-weight: 600;
+    color: #fff;
+    margin-left: 1.66%;
+    margin-top: 100px;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.container-fluid
+{
+	/*background: #fff;*/
+	/*width: 100%;*/
+	margin: 10px;
+	/*height: 20px;*/
+}
+
+.row img
+{
+    width: 30%;
+    float: left;
+    margin: 1%;
+    border: 1px solid white;
+}
+
+.row img:hover
+{
+    background-image: url("assets/courses/cards/ai.png");
+}
+
+.row .captain
+{
+    width: 30%;
+    float: left;
+    margin: 1.66%;
+    color: white;
+
+}
+
+.col-sm img
+{
+    width: 100%; 
+} 
+
+.card-title
+{
+    color: black;
+}

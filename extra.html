@@ -1,0 +1,97 @@
+
+	<div class="horizontal wrapper imgdiv">
+		<div class="card ">
+
+	      <img src="webd.jpg" alt="..." class="img-thumbnail" width="500px" height="500px">
+	      <button type="button" class="btn btn-primary"><span>Enroll Now<span></button>
+        </div>
+
+		<div class="card">
+	      <img src="webd.jpg" alt="..." class="img-thumbnail" width="500px" height="500px">
+	      <button type="button" class="btn btn-primary"><span>Enroll Now</span></button>
+        </div>
+
+		<div class="card">
+	      <img src="webd.jpg" alt="..." class="img-thumbnail" width="500px" height="500px">
+	      <button type="button" class="btn btn-primary"><span>Enroll Now</span></button>
+        </div>
+                
+
+
+
+
+                .card .btn{
+	position: absolute;
+
+	top: 100%;
+	left:100%;
+	transform: translate(-50%, -50%);
+	
+	color: white;
+	font-size: 16px;
+	padding: 12px 24px;
+
+	border-color: white;
+	cursor: pointer;
+	border-radius: 5px;
+
+}
+
+.display-4
+{
+	margin-left: 25px;
+	margin-bottom: 25px;
+	margin-top: 25px;	 
+}
+
+.horizontal .card
+{
+	display: inline;
+	margin: 25px;n
+	width: 28%;
+
+}
+
+.btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn:hover span {
+  padding-right: 25px;
+  display: block;
+
+}
+
+
+.btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.card:hover img:after{
+	opacity: 1;
+	right:0;
+}
+.image-thumbnail {
+  display: block;
+  width: 500px;
+  height: auto;
+}
+
+
+
+.div:hover .overlay {
+  opacity: 1;
+}

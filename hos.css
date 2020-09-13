@@ -1,0 +1,38 @@
+.divhead{
+	background-color:black;
+	color:white;
+	padding:10px;
+	margin: 10px 10px;
+	text-align: center;
+}
+body
+{
+	background-color:white;
+}
+footer
+{
+	margin: 10px;
+	background-color:#008B8B;
+	color:white;
+}
+#nav1{
+	background-color: #008B8B;
+}
+.he{
+	padding-top: 500;
+}
+body{
+	background-color: black;
+}
+p{
+	color: white;
+}
+li{
+	color: white;
+}
+h3{
+	color: white;
+}
+h2{
+	color: white;
+}

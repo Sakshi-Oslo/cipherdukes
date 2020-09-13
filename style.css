@@ -1,0 +1,138 @@
+ .grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  align-items: center;
+  grid-gap: 15px;
+}
+
+.flip-card {
+  border-style: hidden;
+  background-color: transparent;
+  width: 250px;
+  height: 200px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #222e36ef;
+  color: white;
+  transform: rotateY(180deg);
+  font-family: courier;
+}
+.jumbotron{
+  background-color: black;
+}
+h1,h2{
+  color: white;
+text-shadow: 2px 2px 5px red;
+word-spacing: 10px;
+font-family:cursive;
+}
+h1:hover{
+  color:red;
+}
+h2:hover{
+  color: red;
+}
+/*.btn{
+color: white;
+background-color: black;
+}*/
+
+
+
+
+
+@-webkit-keyframes giro {
+  from {
+    transform: rotateY( 180deg);
+  }
+  to {
+    transform: rotateY( 0deg);
+  }
+}
+
+@keyframes giro {
+  from {
+    transform: rotateY( 180deg);
+  }
+  to {
+    transform: rotateY( 0deg);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .flip-card {
+    margin-left: 2.8%;
+    margin-top: 3%;
+    width: 46%;
+  }
+  .flip-card {
+    height: 285px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .flip-card {
+    width: 94.5%;
+  }
+  .flip-card {
+    height: 260px;
+    width: 120px
+  }
+  .btn{
+height: 100px;
+}
+}
+
+.btn:hover{
+  color: white;
+  background-color: black;
+}
+.divhead{
+	background-color:black;
+	color:white;
+	padding:10px;
+	margin: 10px 10px;
+	text-align: center;
+}
+footer
+{
+	margin: 10px;
+	background-color:#008B8B;
+	color:white;
+}
+#nav1{
+	background-color: #008B8B;
+}
+.he{
+	padding-top: 500;
+}

@@ -1,0 +1,17 @@
+.divhead {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 10px 10px;
+    text-align: center;
+}
+
+body {
+    background-color: white;
+}
+
+footer {
+    margin: 10px;
+    background-color: #008B8B;
+    color: white;
+}

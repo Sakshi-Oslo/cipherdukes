@@ -1,0 +1,21 @@
+/*.
+one {
+    background-image: url(../img/l.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 100vh;
+}
+*/
+.one {
+    background-color: black;
+}
+
+
+.two {
+    border: 1px solid #3498db;
+}
+
+.three {
+    padding-left: 210px;
+}
